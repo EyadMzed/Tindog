@@ -23,14 +23,12 @@ body {
 }
 h1 {
   font-family: "Montserrat";
-  font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 900;
 }
 h2
 {
   font-family: "Montserrat";
-  font-size: 3rem;
   line-height: 1.5;
   font-weight: 900;
 }
@@ -139,3 +137,6 @@ p {
 {
   margin: 0 1%;
 }
+@media (prefers-reduced-motion: reduce)
+.carousel-item {
+    transition: transform .6s ease-in-out;
